@@ -8,7 +8,7 @@ public class Teste {
 		
 		int x;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Digite um valo inteiro: ");
+		System.out.println("Digite um valor inteiro: ");
 		x = scan.nextInt();
 		scan.close();
 		
