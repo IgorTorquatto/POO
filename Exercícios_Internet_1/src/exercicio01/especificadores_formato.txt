@@ -1,0 +1,10 @@
+%s	String de caracteres
+%d	Número inteiro decimal
+%u	Número inteiro decimal sem sinal
+%o	Número inteiro octal sem sinal
+%x, %X	Número inteiro hexadecimal sem sinal, minúsculo ou maiúsculo
+%f	Float
+%2f	Double
+%e, %E	Número real, em notação científica, minúsculo ou maiúsculo
+%b	Boolean
+%c	Caractere (char)
