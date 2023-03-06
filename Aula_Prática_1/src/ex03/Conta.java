@@ -6,6 +6,7 @@ public class Conta {
 	String usuario;
 	
 	double consultarSaldo() {
+		//Importante para não haver a ocultação de informações (Hidden information)
 		return saldo;
 	}
 	
