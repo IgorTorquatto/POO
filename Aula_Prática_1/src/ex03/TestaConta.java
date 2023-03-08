@@ -2,6 +2,8 @@ package ex03;
 
 import java.util.Scanner;
 
+import ex04.Conta;
+
 public class TestaConta {
 	public static void main(String[] args) throws InterruptedException {
 		Conta c = new Conta();

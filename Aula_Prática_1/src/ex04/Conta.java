@@ -1,15 +1,20 @@
-package ex03;
+package ex04;
 
 public class Conta {
 	
-	double saldo;
-	String usuario;
+	public double saldo;
+	public String usuario;
 	
-	double consultarSaldo() {
+	public void cadastrarUsuario(String user) {
+		usuario = user;
+	}
+	
+	public double consultarSaldo() {
+		//Importante para não haver a ocultação de informações (Hidden information)
 		return saldo;
 	}
 	
-	void sacar (double valor) {
+	public void sacar (double valor) {
 		
 		if (valor < 0) {
 			System.out.println("Valor inválido.");
@@ -23,7 +28,7 @@ public class Conta {
 		saldo = saldo - valor;
 	}
 	
-	void depositar(double valor) {
+	public void depositar(double valor) {
 		if (valor <= 0) {
 			System.out.println("Valor inválido.");
 			return;
