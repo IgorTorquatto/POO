@@ -1,3 +1,5 @@
+Img 1:
+
 O método usando o throws Exception sinaliza que pode ser lançada uma exceção
 Dentro do método ao escrevermos "throw new Exception()" está dizendo que foi lançado uma execeção
 Na main ao chamar esse método que pode ser lançado uma exceção só podemos usando o try catch, caso contrário o programa nem compila
@@ -5,3 +7,15 @@ O try tenta executar o que está no bloco definido, o catch captura o erro e o r
 O catch têm como parâmetro o Exception e , logo usando o e podemos fazer várias operações, inclusive verificar o lugar do erro.
 E o Exception é uma superclasse da api do java , por isso ela pode ser de vários tipos de erro.
 Caso ocorra um erro o sistema consegue se recuperar e realizar todas as operações que vêm após o bloco catch.
+
+Img 2:
+
+Exemplo de como implementar uma subclasse de Exception
+Nesse exemplo o construtor da superclasse recebe como argumento uma mensagem que será capturada pelo getMessage
+
+
+Img 3:
+
+Exemplo de como usar a exceção criada
+Quando se cria o método dizemos que ele pode lançar uma exceção (throws) e o nome da exceção
+Quando aplicamos a condição que lança a exceção temos que criar essa exceção (throw new Exception())
